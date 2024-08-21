@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.remove-btn:hover {
+    background-color: #c82333;
+}
+
+button#removeAllBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+button#removeAllBtn:hover {
+    background-color: #0056b3;
+}
+
+button#newSectionBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+button#newSectionBtn:hover {
+    background-color: #218838;
+}
+
+.productSection {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.productTable, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.green {
+    background-color: #d4edda;
+}
+
+.red {
+    background-color: #f8d7da;
+}
+
+.difference {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
